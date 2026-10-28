@@ -149,27 +149,8 @@ Adicione esse objeto ao array `fields` e a nova entrada será exibida automatica
 
 ## Integrantes
 
-> **PREENCHER ANTES DE PUBLICAR** — a identificação por **nome completo + RM** é obrigatória para a avaliação.
-
-- **[NOME COMPLETO DO INTEGRANTE 1]** — **RM[INSERIR RM]**
-- **[NOME COMPLETO DO INTEGRANTE 2, SE HOUVER]** — **RM[INSERIR RM]**
-
-**Retire os integrantes excedentes**, preencha os dados reais e troque as prévias por prints reais antes de enviar o repositório.
-
-## Publicação no GitHub
-
-Crie um repositório vazio na sua conta e execute, dentro da pasta do projeto:
-
-```bash
-git init
-git add .
-git commit -m "feat: checkpoint 3 formulario dinamico"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-git push -u origin main
-```
-
-O professor deve receber **o endereço HTTPS do repositório publicado**, não este ZIP. Confira se o README aparece corretamente no GitHub e se o projeto inclui os arquivos de código, a configuração JSON e as capturas de tela reais.
+- **Musashi Mabuti** — **RM559444**
+- **Felipe Gimenes** — **RM99799**
 
 ## Referências
 
