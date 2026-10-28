@@ -1,0 +1,87 @@
+{
+  "title": "Ficha de inscrição",
+  "description": "Preencha os dados abaixo para demonstrar um formulário criado inteiramente a partir de JSON.",
+  "fields": [
+    {
+      "id": "name",
+      "label": "Nome completo",
+      "type": "text",
+      "required": true,
+      "placeholder": "Ex.: Ana Carolina Silva"
+    },
+    {
+      "id": "email",
+      "label": "E-mail",
+      "type": "email",
+      "required": true,
+      "placeholder": "voce@exemplo.com"
+    },
+    {
+      "id": "password",
+      "label": "Senha de demonstração",
+      "type": "password",
+      "required": true,
+      "placeholder": "Não utilize sua senha verdadeira",
+      "helpText": "Por segurança, a senha será ocultada no resultado e não será salva em texto puro."
+    },
+    {
+      "id": "age",
+      "label": "Idade",
+      "type": "number",
+      "required": true,
+      "placeholder": "Ex.: 21"
+    },
+    {
+      "id": "bio",
+      "label": "Conte um pouco sobre você",
+      "type": "multiline",
+      "required": false,
+      "placeholder": "Interesses, objetivos, experiências..."
+    },
+    {
+      "id": "course",
+      "label": "Curso de interesse",
+      "type": "select",
+      "required": true,
+      "options": [
+        { "label": "Análise e Desenvolvimento de Sistemas", "value": "ads" },
+        { "label": "Engenharia de Software", "value": "eng-soft" },
+        { "label": "Ciência de Dados", "value": "data" },
+        { "label": "Design Digital", "value": "design" }
+      ]
+    },
+    {
+      "id": "period",
+      "label": "Período preferido",
+      "type": "radio",
+      "required": true,
+      "options": [
+        { "label": "Manhã", "value": "morning" },
+        { "label": "Tarde", "value": "afternoon" },
+        { "label": "Noite", "value": "night" }
+      ]
+    },
+    {
+      "id": "terms",
+      "label": "Aceito os termos de inscrição",
+      "type": "checkbox",
+      "required": true,
+      "helpText": "É necessário marcar esta opção para enviar."
+    },
+    {
+      "id": "notifications",
+      "label": "Desejo receber novidades",
+      "type": "switch",
+      "required": true,
+      "helpText": "Ligado ou desligado são respostas válidas."
+    },
+    {
+      "id": "birthDate",
+      "label": "Data de nascimento",
+      "type": "date",
+      "required": true,
+      "placeholder": "DD/MM/AAAA",
+      "helpText": "Digite uma data real no formato DD/MM/AAAA."
+    }
+  ]
+}

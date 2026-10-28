@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Formulário Dinâmico | CP3",
+    "slug": "checkpoint-3-formulario-dinamico",
+    "scheme": "cp3formulario",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.checkpoint3.formulariodinamico"
+    },
+    "web": {
+      "name": "CP3 | Formulário Dinâmico",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    }
+  }
+}
